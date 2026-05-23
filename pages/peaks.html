@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peaks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/peaks.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header peaks">
+            <div class="container">
+                <div class="inner_header">
+                    <a href="../pages/main.html">Home</a>
+                    <a class="active" href="../pages/peaks.html">Peaks</a>
+                    <a href="../pages/hiking.html">Hiking</a>
+                    <a href="../pages/equipment.html">Equipment</a>
+                    <button class="btn" id="btn-get">Contact</button>
+                </div>
+            </div>
+        </div> 
+
+        <div class="weather">
+            <div class="weather_title">
+                <h3>WEATHER</h3>
+                <div class="container">
+                    <div class="inner_weather">
+                        <div>
+                            <label>
+                                <input
+                                    type="text"
+                                    class="cityName"
+                                    placeholder="Найти погоду в..."
+                                    id="searchInput"
+                                >
+                            </label>
+                            <button class="btn" id="search">search</button>
+                        </div>
+                        <div>
+                            <span class="city"></span>
+                            <hr/>
+                            <span class="temp"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="peaks_inner">
+            <div class="container">
+                <h2>Peaks of the world</h2>
+                <div class="block_slider"></div>
+            </div>
+        </div>
+    
+        <div class="footer peaks">
+            <div class="container">
+                <div class="inner_footer">
+                    <div class="footer_links">
+                        <a href="https://www.instagram.com/nacreouspan/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/ayanazw" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map-modal" class="map_modal">
+        <div id="map-container" style="width: 100%; height: 100%;"></div>
+    </div>
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Запланируй свой хайкинг!</div>
+                    <label>
+                        <input
+                            required
+                            placeholder="Ваше имя"
+                            name="name"
+                            type="text"
+                            class="modal_input"
+                        >
+                    </label>
+                    <label>
+                        <input
+                            required
+                            placeholder="Ваш номер телефона"
+                            name="phone"
+                            type="text"
+                            class="modal_input"
+                        >
+                    </label>
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                
+                </form>
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="../js/modal.js"></script>
+<script src="../js/peaks.js"></script> 
+</html>

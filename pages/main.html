@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="inner_header">
+                    <a class="active" href="../pages/main.html">Home</a>
+                    <a href="../pages/peaks.html">Peaks</a>
+                    <a href="../pages/hiking.html">Hiking</a>
+                    <a href="../pages/equipment.html">Equipment</a>
+                    <button class="btn" id="btn-get">Contact</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="main_block">
+            <div class="container">
+                <h1>&#8220;Лучше гор могут быть только горы, на которых никто не бывал&#8221;</h1>
+            </div>
+        </div>
+    
+        <div class="slider_block">
+            <div class="container">
+                <div class="inner_slider">
+                    <div class="slider">
+                        <button class="btn-slide" id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                        <div class="slide active_slide" data-bg="https://i1-e.pinimg.com/1200x/e1/bb/4b/e1bb4b24222d556a93212525105dfbb8.jpg">
+                            <div class="slide_card">
+                                <h3>Мировые пики</h3>
+                                <p>Мировые пики — это высочайшие горные вершины планеты, сосредоточенные преимущественно в Гималаях и Каракоруме (Азия).</p>
+                                <p>Эверест, К2, Аннапурна, Эльбрус, Монблан</p>
+                                <a href="./peaks.html" target="_blank">Узнать подробнее <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slide" data-bg="https://i.pinimg.com/736x/d7/a5/ee/d7a5eea9ff9eac532eb491bb6ea6952a.jpg">
+                            <div class="slide_card">
+                                <h3>Хайкинг</h3>
+                                <p>Хайкинг (от англ. hiking) — это пешая прогулка или непродолжительный поход по оборудованным и размеченным тропам, чаще всего на природе (горы, леса). Это активный отдых налегке, который обычно занимает от нескольких часов до одного дня, не требует специальной подготовки, сложного снаряжения или ночевки.</p>
+                                <a href="./hiking.html" target="_blank">Узнать подробнее <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slide" data-bg="https://i1-e.pinimg.com/1200x/76/00/28/760028858eba2a98ac6a26f7b94f3345.jpg">
+                            <div class="slide_card">
+                                <h3>Снаряжение</h3>
+                                <p>Подбор снаряжения для безопасного и комфортного хайкинга</p>
+                                <a href="./equipment.html" target="_blank">Узнать подробнее <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <button class="btn-slide" id="next"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="gif-container">
+            <p class="gif_text left"> just</p>
+            <div class="container mountain-container">
+                <img src="../images/moutain_gif.gif" alt="Анимированные горы" class="mountain-gif">
+            </div>
+            <p class="gif_text right">do it</p>
+        </div>
+    
+        <div class="block_video">
+            <div class="container">
+                <h3>It is not the mountain we conquer, but ourselves.</h3>
+                <div class="inner_block_video">
+                    <iframe width="80%" height="500" src="https://www.youtube.com/embed/6eBUqRDSPrw?si=oJ08n5nUsV9b0ykV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div> 
+    
+        <div class="footer">
+            <div class="container">
+                
+                <div class="inner_footer">
+                    <a href="https://www.instagram.com/nacreouspan/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/ayanazw" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Запланируй свой хайкинг!</div>
+                    <label>
+                        <input
+                            required
+                            placeholder="Ваше имя"
+                            name="name"
+                            type="text"
+                            class="modal_input"
+                        >
+                    </label>
+                    <label>
+                        <input
+                            required
+                            placeholder="Ваш номер телефона"
+                            name="phone"
+                            type="text"
+                            class="modal_input"
+                        >
+                    </label>
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+
+</body>
+
+<script src="../js/main.js"></script>
+<script src="../js/modal.js"></script>
+</html>

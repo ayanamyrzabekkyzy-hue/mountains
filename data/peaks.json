@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Эверест",
+        "height": "8848.86 м",
+        "image": "https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Everest.jpg",
+        "description": "Высочайшая вершина Земли.",
+        "date": "29 мая 1953",
+        "climbers": "Эдмунд Хиллари и Тенцинг Норгей",
+        "coordinates": {
+            "lat": 27.9881,
+            "lng": 86.9250
+        }
+    },
+    {
+        "name": "K2",
+        "height": "8614 м",
+        "image": "https://alpindustria-tour.ru/UserFiles/Image/photo_5226570399020599238_y.jpg",
+        "description": "Вторая по высоте вершина мира.",
+        "date": "31 июля 1954",
+        "climbers": "Акилле Компаньони",
+        "coordinates": {
+            "lat": 35.8817,
+            "lng": 76.3048
+        }
+    },
+    {
+        "name": "Аннапурна",
+        "height": "8091 м",
+        "image": "https://nepal-nepal.ru/trekking/annapurna/tajnye-tropy/upper-point.jpg",
+        "description": "Считается одним из самых опасных восьмитысячников — уровень смертности среди альпинистов за все годы восхождений достигает чуть менее 22 %.",
+        "date": "3 июня 1950 года",
+        "climbers": "Морис Эрцог (руководитель экспедиции) и Луи Лашеналь",
+        "coordinates": {
+            "lat": 28.3546,
+            "lng": 83.4913
+        }
+    },
+    {
+        "name": "Эльбрус",
+        "height": "5642,7 м",
+        "image": "https://i.pinimg.com/736x/6c/6b/96/6c6b9680ebf8f0b92e9f3a505f62c487.jpg",
+        "description": "Самая высокая горная вершина России и Европы.",
+        "date": "Восточная вершина:10 (22) июля 1829 года.Западная вершина: 28 июля 1874 г.",
+        "climbers": "К. Хаширов; Ф. Гроув, Ф. Гарднер, Х. Уокер, П. Кнубел и А. Соттаев ",
+        "coordinates": {
+            "lat": 43.1527,
+            "lng": 42.3839
+        }
+    },
+    {
+        "name": "Монблан",
+        "height": "4810 м",
+        "image": "https://alpindustria.ru/UserFiles/Image/1(22).jpg",
+        "description": "Это самая высокая точка Альп.",
+        "date": "8 августа 1786 года",
+        "climbers": "Мишель-Габриэль Паккард и Жак Бальма",
+        "coordinates": {
+            "lat": 45.4958,
+            "lng": 6.5154
+        }
+    },
+    {
+        "name": "Пик Победы",
+        "height": "7439 м",
+        "image": "https://ak-sai.com/wp-content/uploads/2025/09/img_0279-1024x768.jpg",
+        "description": "Самая высокая точка Тянь-Шаня.",
+        "date": "30 августа 1956 года",
+        "climbers": "Экспедиция под руководством Виталия Абалакова",
+        "coordinates": {
+            "lat": 42.0375,
+            "lng": 80.1250
+        }
+    },
+    {
+        "name": "Пик Ленина",
+        "height": "7134 м",
+        "image": "https://i1-e.pinimg.com/1200x/2d/f8/5b/2df85bcbed2c4f2b3dff7e91604e9a55.jpg",
+        "description": "Популярный семитысячник Памира.",
+        "date": "25 сентября 1928",
+        "climbers": "Карл Вин,  Ойген Альвайн, Эрвин Шнайдер",
+        "coordinates": {
+            "lat": 39.2033,
+            "lng": 72.5239
+        }
+    },
+    {
+        "name": "Хан-Тенгри",
+        "height": "6995,2 м",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6OTJeS-qJukry-n3Y9jghw8lPlVYHEVS1Tw&s",
+        "description": "Его название в переводе с тюркских языков означает «Повелитель неба».",
+        "date": "11 сентября 1931 года",
+        "climbers": "Михаил Погребецкий, Борис Тюрин и австриец Франц Зауберер",
+        "coordinates": {
+            "lat": 42.1239,
+            "lng": 80.1030
+        }
+    },
+    {
+        "name": "Пик Учитель",
+        "height": "4530 м",
+        "image": "https://data.vb.kg/image/big/2022-09-01_13-15-37_867686.jpg",
+        "description": "Идеально подходящая для начинающих альпинистов",
+        "date": "1938 год",
+        "climbers": "Под руководством В. Озеровского",
+        "coordinates": {
+            "lat": 42.5379,
+            "lng": 74.5531
+        }
+    }
+]

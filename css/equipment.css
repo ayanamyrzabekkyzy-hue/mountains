@@ -1,0 +1,169 @@
+.header.equip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    transition: .4s ease;
+    z-index: 5;
+    background: transparent;
+}
+
+.header.equip.active_header {
+    background: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+}
+
+.equipment {
+    background: black;
+    position: relative;
+    overflow: visible;   
+}
+
+.eq_title {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i1-e.pinimg.com/1200x/cb/5f/1d/cb5f1d888a7d77da94909d15a8d30ad4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Gasoek One", sans-serif;
+    font-size: 140px;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    color: orangered;
+}
+
+.eq_title p {
+    font-family: "Gasoek One", sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.equipment_inner {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px; 
+    
+    border: 1px solid orange;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.jacket,
+.backpack,
+.boots,
+.trek_poles {
+    display: flex; 
+    align-items: center; 
+    gap: 50px; 
+    padding: 30px; 
+    user-select: none;
+    width: 100%; 
+    height: 100%;
+} 
+
+.eqiup_img {
+    width: 1250px; 
+    height: 500px; 
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.eqiup_img img {
+    height: 100%; 
+    width: 100%; 
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.description {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text h3 {
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text p {
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+}
+
+.text h4 {
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase;
+}
+
+button {
+    width: 40%;
+    height: 35px;
+    background-color: black;
+    border: 1px solid orange;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button a {
+    color: orange;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider_block_equip {
+    padding: 50px 0;
+    background: black;
+}
+
+.slider_pic {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.slider_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider_pic img {
+    animation: zoom 3s linear;
+}
+
+.footer.equip {
+    background-color: black;
+}

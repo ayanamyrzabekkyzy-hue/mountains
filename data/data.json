@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Эверест (Джомолунгма) ",
+      "height": 8848,
+      "photo": "https://cdn2.tu-tu.ru/image/pagetree_node_data/1/2580b88a3b5fb92e21b81bf5a176134d/"
+    },
+    {
+      "id": 2,
+      "name": "K2(Чогори)",
+      "height": 8611,
+      "photo": "https://i.pinimg.com/736x/c4/99/1d/c4991d7301a82b8f5ea78e321820cc6e.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Аконкагуа",
+      "height": 6962,
+      "photo": "https://i.pinimg.com/1200x/e4/9d/7f/e49d7fe390e58914ea50c1fad501dac5.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Денали (Мак-Кинли)",
+        "height": 6190,
+        "photo": "https://7vershin.ru/media/full/21/88328.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Килиманджаро",
+        "height": 5895,
+        "photo": "https://static.tildacdn.com/tild3938-6539-4130-b535-306363363938/43.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Эльбрус",
+        "height": 5642,
+        "photo": "https://alpindustria-tour.ru/UserFiles/Image/IMG_0222.JPG"
+    },
+      {
+        "id": 7,
+        "name": "Монблан",
+        "height": 4810,
+        "photo": "https://i.pinimg.com/1200x/c0/d7/c3/c0d7c325aa918721a7a6c64d2431f59b.jpg"
+      },
+    {
+        "id": 8,
+        "name": "Маттерхорн",
+        "height": 4478,
+        "photo": "https://alpindustria-tour.ru/UserFiles/Image/%D0%A4%D0%BE%D1%82%D0%BE%201.JPG"
+    },
+    {
+        "id": 9,
+        "name": "Пик Победы",
+        "height": 7439,
+        "photo": "https://ak-sai.com/wp-content/uploads/2025/09/img_0279-1024x768.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Пик Ленина",
+        "height": 7134,
+        "photo": "https://i.pinimg.com/1200x/2d/f8/5b/2df85bcbed2c4f2b3dff7e91604e9a55.jpg"
+    }
+  ]
